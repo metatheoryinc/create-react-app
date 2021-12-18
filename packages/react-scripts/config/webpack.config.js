@@ -312,7 +312,8 @@ module.exports = function (webpackEnv) {
         "crypto": require.resolve("crypto-browserify"),
         "http": require.resolve("stream-http"),
         "https": require.resolve("https-browserify"),
-        "os": require.resolve("os-browserify/browser")
+        "os": require.resolve("os-browserify/browser"),
+        "stream": require.resolve("stream-browserify")
       },
       // These are the reasonable defaults supported by the Node ecosystem.
       // We also include JSX as a common component filename extension to support
